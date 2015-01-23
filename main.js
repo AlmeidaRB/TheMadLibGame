@@ -1,0 +1,12 @@
+var name = prompt("Hi there, what is your name?");
+var age = prompt("Welcome "+name+", how old are you?");
+var filler1 = alert("Awesome, let's get to know you!");
+var animal = prompt("If you had to choose, what would be your favorite animal?");
+var food = prompt("If you could only pick one thing, what would be your favorite food?");
+var place = prompt("If you could only travel to one place, where would it be?");
+var drink = prompt("You enjoy drinking a tall glass of...?");
+var verb = prompt("In your free time, you enjoy what? Make sure this verb is present tense, ie. running, drinking, painting.");
+var clothes = prompt("Your one go-to item of clothing is what? Make sure this answer is NOT plural.");
+alert("Sweet answers! We've learned alot about you!");
+alert("And basically what we imagine a day in the life of "+name+" looking like is this...");
+document.write("Every morning "+name+" rolls out of bed and eats "+age+" quick servings of "+food+"\."+" Feeling a little groggy from a long night of "+verb+"\, "+name+" chugs a tall glass of "+drink+" while petting sweet scruffy Bubba, aka "+name+"\'s pet "+animal+"\."+"Then, wearing only your lucky "+clothes+" you are ready to step outside and explore more of "+place);
